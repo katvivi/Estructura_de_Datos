@@ -54,10 +54,4 @@ void ImprimirElemento(Pila *pila){
 		    cout<<" "<<pila->elementosPila[i]<<endl;
 		}			
 	}
-
-	/*for(int i = 0;i<=pila->tope;i++){
-		if (pila->elementosPila[i]!=NULL){
-			cout<<"\t"<<pila->elementosPila[i]<<endl;
-		}
-	}*/
 }
